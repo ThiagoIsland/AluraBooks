@@ -17,9 +17,9 @@
 
 .banner__pesquisa{
     background-color: transparent;
-    border: 1px solid var(--branco); /* a bordar precisa de três atributos tamanho(1px), tipo(solid) e a cor(branco)*/
-    color: var(--branco); /* cor da escrita*/
-    border-radius: 24px; /* bordas*/
+    border: 1px solid var(--branco); 
+    color: var(--branco); 
+    border-radius: 24px; 
     padding: 1em;
     margin: 1em 0;
     width: 100%;
