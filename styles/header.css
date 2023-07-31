@@ -3,8 +3,8 @@
     height: 24px;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
-    background-position: center; /* Centraliza os itens no background do cabecalho */
-    display: inline-block; /* Se fosse apenas inline, e não Inline-block, ele não permitiria os ajustes de Altura e Largura (Width e Height)*/
+    background-position: center; 
+    display: inline-block; 
     
 }
 
@@ -18,29 +18,29 @@
 .cabecalho {
     background-color: var(--branco);
     display: flex;
-    justify-content: space-between; /* Espaço entre os itens do cabeçalho */
-    align-items: center; /* alinha no centro entre os itens do cabeçalho */
+    justify-content: space-between; 
+    align-items: center; 
     position: relative;
 }
 
 .container{
-    display: flex; /* Torna o container flexível */
-    align-items: center; /* Centraliza os elementos verticalmente */
+    display: flex; 
+    align-items: center;
 }
 
 .container__imagem{
-    padding: 1em; /* Espaçamento entre os itens do container */
+    padding: 1em; 
 }
 
 .lista-menu{
-    display: none; /* Some com os itens do menu que ficavam aparentes */
+    display: none;
     position: absolute;
     top: 100%;
-    width: 60vw; /* aumentou a largura(width) do lista-menu em 60vw. A medida VW pega metade da tela */
+    width: 60vw; 
 }
 
 .container__botao:checked ~ .lista-menu{
-    display: block; /* Checked confere se o botao esta clicado. ~ = Verifica se o botao esta checked ou não, se estiver clicado, ele pega a class mais proxima selecionada (lista-menu) e coloca display: block nele */
+    display: block; 
 }
 
 .lista-menu__titulo, .lista-menu__item{
@@ -57,7 +57,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-transform: uppercase; /* Tranforma as letras em maisculuas  */
+    text-transform: uppercase;
 }
 
 .container__botao{
