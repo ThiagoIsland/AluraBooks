@@ -12,3 +12,9 @@ Site projeto com Mobile View e Deskstop View do Alurabooks feito durante o curso
 # Visual Mobile Celulares 
 
 ![image](https://github.com/ThiagoIsland/AluraBooks/assets/114539167/de116726-c944-41a2-bc14-3e3e3458d4d2)
+
+# Tecnologias utilizadas
+  - HTML/CSS
+  - Visual Studio Code
+  - Github Pages
+  - API Swiper
